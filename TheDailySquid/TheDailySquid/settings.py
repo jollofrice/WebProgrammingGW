@@ -120,6 +120,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# Django Authentication Settings
+
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'user profile'
 

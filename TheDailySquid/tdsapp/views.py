@@ -3,13 +3,15 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.decorators import login_required
 
+from TheDailySquid.core.forms import SignUpForm
+
 from django.shortcuts import render, redirect
 
 def index(request):
     return render(request, 'index.html')
 
 def signup(request):
-    form = UserCreationForm(request.POST or None)
+    form = SignUpForm(request.POST or None)
 
     if request.method == 'POST':
         if form.is_valid():

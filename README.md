@@ -10,13 +10,13 @@ Group 18
 - admin user: sebcr 
 admin pw: sebesiri
 
-- test user: esiri
-test pw: thisis123esiri
+- test user: esiri,
+pw: thisis123esiri
 
-- test user: seb
-test pw: thisis123seb
+- test user: seb,
+pw: thisis123seb
 
-- test user: sen
-test pw: thisis123sen
+- test user: sen,
+pw: thisis123sen
 
 
